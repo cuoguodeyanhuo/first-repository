@@ -1,1 +1,14 @@
-
+<?php    $score = rand(0,100);//调用了rand()函数，随机取值的范围是0~100    
+   echo "$score"."分" . "<br />";    
+   if ($score >= 90) {        
+       echo '优秀';    
+   }else if ($score >= 80) {        
+       echo '良好';    
+   }else if ($score >= 70) {        
+       echo '中等';    
+   }else if ($score >= 60) {        
+       echo '及格';    
+   }else {        
+       echo '不及格';    
+   }
+ ?>
